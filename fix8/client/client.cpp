@@ -304,9 +304,6 @@ bool CLIENT_session_client::handle_admin(const unsigned seqnum, const FIX8::Mess
 void CLIENT_session_client::modify_outbound(FIX8::Message *msg)
 {
 	std::cout << __PRETTY_FUNCTION__ << std::endl ; 
-  std::cout << "HERE : " << __LINE__ <<std::endl ;
-  FIX8::Session::modify_outbound(msg) ;
-  std::cout << "HERE : " << __LINE__ <<std::endl ;
 }
 
 bool CLIENT_session_client::authenticate(FIX8::SessionID& id, const FIX8::Message *msg)

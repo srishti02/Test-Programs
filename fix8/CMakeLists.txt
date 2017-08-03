@@ -7,3 +7,5 @@ set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
 
 add_subdirectory(client)
 add_subdirectory(server)
+add_subdirectory(server44)
+add_subdirectory(client44)
