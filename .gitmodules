@@ -1,0 +1,3 @@
+[submodule "JAVA"]
+	path = JAVA
+	url = git@github.com:srishti02/JAVA.git
