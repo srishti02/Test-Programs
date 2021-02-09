@@ -68,5 +68,15 @@ namespace ELEVATOR_SYSTEM
       {
         _cabinContext = cabinContext;
       }
+
+      /**
+       * @brief set cabin's state
+       *
+       * @param state: state of cabin to be set
+       */
+      void setCabinState(CabinState* state)
+      {
+        _cabinContext->setCabinState(state);
+      }
   };
 }
